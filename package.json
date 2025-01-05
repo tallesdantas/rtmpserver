@@ -1,12 +1,13 @@
 {
-    "name": "rtmp-server",
-    "version": "1.0.0",
-    "description": "A simple RTMP server using Node Media Server",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "node-media-server": "^2.4.9"
-    }
+  "name": "rtmp-server",
+  "version": "1.0.0",
+  "description": "RTMP server with HLS and HTTP server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-media-server": "^2.4.9",
+    "express": "^4.17.1"
   }
+}
